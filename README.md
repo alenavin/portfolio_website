@@ -2,4 +2,4 @@
 
 - Made with HTML and CSS
 - JS will be added soon
-- [link] (alenavin.github.io/portfolio_project/)
+- [link] alenavin.github.io/portfolio_project/
