@@ -1,0 +1,349 @@
+* {
+    padding: 0; 
+    margin: 0;
+    z-index: 2;
+    background: none;
+    font-size: 18px;
+    box-sizing: border-box;
+    text-transform: lowercase;
+}
+
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 970px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 750px;
+    }
+
+    .me,
+    .my-skills,
+    .blocks-titles,
+    .blocks {
+        width: 100%;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: none;
+    }
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 15px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-transform: uppercase;
+    background-color: rgb(247, 247, 242);
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(247, 247, 242);
+    
+}
+
+.circle {
+    width: 100vw;
+    height: 100vh;
+    border-radius: 100%;
+    background-color: rgba(177, 119, 53, 0.404);
+    z-index: 1;
+    position: absolute;
+}
+
+header img {
+   width: 150px;
+   height: 50px;
+}
+
+header p {
+    margin-left: 110px;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+nav ul li {
+    margin-left: 40px;
+    text-transform: uppercase;
+}
+
+.intro {
+    margin-left: 125px;
+}
+
+.intro h1 {
+    font-size: 65px;
+    text-transform: uppercase;
+    margin: 25px 0;
+}
+
+.intro p {
+    text-transform: uppercase;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 20px;
+}
+
+.ava {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 640px;
+    height: 640px;
+    margin-left: 90px;
+}
+
+.ava img {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.me,
+.my-skills {
+    margin-left: 105px;
+    margin-bottom: 80px;
+    margin-top: 100px;
+}
+
+.me h3,
+.my-skills h3 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-transform: capitalize;
+    font-size: 22px;
+}
+
+.me p {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 40px;
+    font-style: italic;
+}
+
+.my-skills p {
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+    text-transform: capitalize;
+}
+
+.blocks-titles {
+    display: flex;
+    justify-content: space-around;
+}
+
+.blocks-titles h3 {
+    font-size: 18px;
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.blocks {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.blocks p {
+    width: 25%;
+    font-size: 15px;
+    font-family: 'Playfair Display', serif;
+    text-transform: capitalize;
+}
+
+.blocks-container {
+    margin: 0 105px;
+}
+
+
+.skills {
+    margin-left: 105px;
+    width: 1000px;
+}
+
+.skills p,
+.education h2 {
+    margin: 6px 0;
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+    text-transform: capitalize;
+}
+
+.skill-bar {
+    height: 12px;
+    background-color: wheat;
+    border-radius: 4px;
+
+}
+
+.skill-percentage {
+    height: 12px;
+    background-color: rgba(177, 119, 53, 0.404);
+    border-radius: 4px;
+    position: relative;
+}
+
+.skill-percentage::before {
+    content: attr(a);
+    position: absolute;
+    background: rgb(192, 191, 194);
+    padding: 4px 6px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 4px;
+    top: -30px;
+    right: 0;
+    transform: translateX(50%);
+}
+
+.skill-percentage::after {
+    content: '';
+    position: absolute;
+    width: 9px;
+    height: 8px;
+    background: rgb(192, 191, 194);
+    top: -13px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+}
+
+
+.education {
+    margin: 30px 105px;
+    text-transform: uppercase;
+}
+
+.education h3 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-transform: capitalize;
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+table {
+    margin-left: 105px;
+    margin-top: 40px;
+    width: 800px;
+
+}
+
+table {
+    width: 800px; 
+    text-align: center; 
+    border-bottom: 2px solid #dfdfdf; 
+    border-radius: 6px; 
+    border-collapse: separate; 
+    border-spacing: 0px;
+    margin-bottom: 30px;
+}
+table thead tr {
+    color: #ffffff; 
+    background: #8a8455;
+    height: 40px;
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+    text-transform: capitalize;
+    
+}
+table tr td {
+    border-right: 1px solid #dfdfdf;
+    height: 50px;
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+    text-transform: capitalize;
+}
+table tr td:last-child {
+    border-right: 0px;
+}
+table tbody tr:nth-child(1n) {
+    background: #f6f6f6;
+}
+table tbody tr:nth-child(2n) {
+    background: #f1eded;
+}
+table tbody tr:hover {
+    background: #beb676; transition-duration: 0.2s;
+}
+
+
+.foot-bg {
+    background-color: white;
+    width: 100vw;
+}
+
+footer {
+    display: flex;
+    margin-left: 105px;
+    margin-right: 105px;
+    align-items: center;
+    height: 400px;
+}
+
+.social {
+    display: block;
+}
+
+.social p {
+    font-size: 40px;
+    text-transform: capitalize;
+    font-family: 'Playfair Display', serif;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.social ul li {
+    list-style: none;
+    font-size: 10px;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+}
+
+.foot {
+    display: block;
+    margin-right: 450px;
+}
+
+.foot p {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    text-transform: capitalize;
+}
+
+.foot h2 {
+    font-size: 100px;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+
+
+
