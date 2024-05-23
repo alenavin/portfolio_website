@@ -1,0 +1,317 @@
+* {
+    z-index: 2;
+    background: none;
+    font-size: 16px;
+    text-transform: lowercase;
+}
+
+header {
+    height: 5vh;
+    width: 100vw;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 7vw;
+    padding-right: 10vw;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-transform: uppercase;
+    background-color: rgb(247, 247, 242);
+
+    font-size: 1.5vh;
+}
+
+header p {
+    text-transform: uppercase;
+    font-size: 1.75vh;
+    margin-right: 80vh;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    background-color: rgb(247, 247, 242);
+}
+
+footer {
+    height: 33vh;
+    width: 100vw;
+
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+nav ul li {
+    margin-left: 40px;
+    text-transform: uppercase;
+}
+
+.intro {
+    margin-left: 1vh;
+    margin-top: 20vh;
+}
+
+.intro h1 {
+    font-size: 55px;
+    text-transform: uppercase;
+    margin: 25px 0;
+}
+
+.intro p {
+    text-transform: uppercase;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 20px;
+}
+
+.ava {
+    display: inline-block;
+    width: 30vw;
+    height: 30vh;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.ava img {
+    width:100%;
+    object-fit: cover;
+    margin-top: 0px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0;
+    justify-content: space-around;
+
+}
+
+.me {
+    margin-left: 10vw;
+    margin-bottom: 5vh;
+    margin-top: 25vh;
+}
+
+.my-skills {
+    margin-left: 10vw;
+    margin-bottom: 5vh;
+    margin-top: 10vh;
+}
+
+.me h3,
+.my-skills h3 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-transform: capitalize;
+    font-size: 4vh;
+}
+
+.me p {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 40px;
+    font-style: italic;
+}
+
+.my-skills p {
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+    text-transform: capitalize;
+}
+
+.blocks-titles {
+    display: flex;
+    justify-content: space-around;
+}
+
+.blocks-titles h3 {
+    font-size: 18px;
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.blocks {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.blocks p {
+    width: 25%;
+    font-size: 15px;
+    font-family: 'Playfair Display', serif;
+    text-transform: capitalize;
+}
+
+.blocks-container {
+    margin: 0 105px;
+}
+
+
+.skills {
+    margin-left: 105px;
+    width: 50%;
+}
+
+.skills p,
+.education h2 {
+    margin: 6px 0;
+    font-size: 4vh;
+    font-family: 'Playfair Display', serif;
+    text-transform: capitalize;
+}
+
+.skill-bar {
+    height: 12px;
+    background-color: wheat;
+    border-radius: 4px;
+
+}
+
+.skill-percentage {
+    height: 12px;
+    background-color: rgba(177, 119, 53, 0.404);
+    border-radius: 4px;
+    position: relative;
+}
+
+.skill-percentage::before {
+    content: attr(a);
+    position: absolute;
+    background: rgb(192, 191, 194);
+    padding: 4px 6px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 4px;
+    top: -30px;
+    right: 0;
+    transform: translateX(50%);
+}
+
+.skill-percentage::after {
+    content: '';
+    position: absolute;
+    width: 9px;
+    height: 8px;
+    background: rgb(192, 191, 194);
+    top: -13px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+}
+
+
+.education {
+    margin: 30px 105px;
+    text-transform: uppercase;
+}
+
+.education h3 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-transform: capitalize;
+    font-size: 4vh;
+    margin-bottom: 8px;
+}
+
+table {
+    margin-left: 105px;
+    margin-top: 40px;
+    width: 800px;
+
+}
+
+table {
+    width: 800px; 
+    text-align: center; 
+    border-bottom: 2px solid #dfdfdf; 
+    border-radius: 6px; 
+    border-collapse: separate; 
+    border-spacing: 0px;
+    margin-bottom: 30px;
+}
+table thead tr {
+    color: #ffffff; 
+    background: #8a8455;
+    height: 40px;
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+    text-transform: capitalize;
+    
+}
+table tr td {
+    border-right: 1px solid #dfdfdf;
+    height: 50px;
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+    text-transform: capitalize;
+}
+table tr td:last-child {
+    border-right: 0px;
+}
+table tbody tr:nth-child(1n) {
+    background: #f6f6f6;
+}
+table tbody tr:nth-child(2n) {
+    background: #f1eded;
+}
+table tbody tr:hover {
+    background: #beb676; transition-duration: 0.2s;
+}
+
+.social p {
+    font-size: 40px;
+    text-transform: capitalize;
+    font-family: 'Playfair Display', serif;
+    text-transform: capitalize;
+    
+}
+
+.social ul {
+    align-items: center;
+    margin-left: 0;
+}
+
+.social ul li {
+    list-style: none;
+    margin-left: 0;
+}
+
+.foot p {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    text-transform: capitalize;
+}
+
+.foot h2 {
+    font-size: 60px;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+
+
+
