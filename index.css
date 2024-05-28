@@ -58,6 +58,11 @@ footer {
     align-items: center;
 }
 
+.social ul li a {
+    text-transform: lowercase;
+    text-decoration: underline;
+}
+
 a {
     text-decoration: none;
     color: black;
