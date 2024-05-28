@@ -135,9 +135,10 @@ main {
 }
 
 .me p {
-    font-family: 'Playfair Display SC', serif;
-    font-size: 40px;
-    font-style: italic;
+    font-family: 'Playfair Display', serif;
+    text-transform: capitalize;
+    font-size: 3vh;
+    
 }
 
 .my-skills p {
@@ -344,5 +345,5 @@ table tbody tr:hover {
 }
 
 .dropdown:hover .dropbtn {
-    background-color: #a19b7d;
+    background-color: #beb676;
 }
