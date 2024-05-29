@@ -55,3 +55,24 @@ btnNext.onclick = function() {
     
 
 }
+
+btnPrev.onclick = function() {
+    // 1. скрыть текущий
+    const currentSlide = slider.querySelector('[data-active]');
+    const currentIndex = +currentSlide.dataset.index;
+    currentSlide.classList.add('hidden');
+    currentSlide.removeAttribute('data-active');
+
+    // 2. показать новый
+    let nextIndex;
+    if (currentIndex - 1 === -1) {
+        nextIndex = sliderItems.length-1;
+    } else {
+        nextIndex = currentIndex - 1;
+    }
+
+    const nextSlide = slider.querySelector(`[data-index="${nextIndex}"]`);
+    nextSlide.classList.remove('hidden');
+    nextSlide.setAttribute('data-active', '');
+    
+}
