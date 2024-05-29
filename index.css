@@ -1,127 +1,15 @@
 * {
     z-index: 2;
     background: none;
-    font-size: 16px;
     text-transform: lowercase;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
     /* Стили для мобильных устройств */
-
-    header {
-        font-size: 12px;
-        padding-left: 5vw;
-        padding-right: 5vw;
-    }
-
-    header p {
-        font-size: 14px;
-        margin-right: 30vh;
-    }
-
     nav ul {
+        list-style: none;
+        display: flex;
         flex-direction: column;
-        align-items: flex-start;
-    }
-
-    nav ul li {
-        margin-left: 0;
-        margin-bottom: 10px;
-    }
-
-    .intro {
-        margin-left: 0;
-        margin-top: 10vh;
-    }
-
-    .intro h1 {
-        font-size: 32px;
-        text-align: center;
-    }
-
-    .intro p {
-        font-size: 16px;
-        text-align: center;
-    }
-
-    .ava {
-        width: 80vw;
-        height: auto;
-        margin: 20px auto;
-    }
-
-    .ava img {
-        width: 100%;
-    }
-
-    main {
-        flex-direction: column;
-        align-items: center;
-        margin-top: 20px;
-    }
-
-    .me, .my-skills {
-        margin-left: 0;
-        margin-top: 10vh;
-        margin-bottom: 10vh;
-        width: 90%;
-        text-align: center;
-    }
-
-    .me h3, .my-skills h3 {
-        font-size: 3vh;
-    }
-
-    .me p, .my-skills p {
-        font-size: 2vh;
-    }
-
-    .blocks {
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 20px;
-    }
-
-    .blocks p {
-        width: 80%;
-        font-size: 14px;
-    }
-
-    .blocks-container, .skills, .education, .certificatations {
-        margin: 0 auto;
-        width: 90%;
-    }
-
-    table {
-        width: 100%;
-        margin-left: 0;
-    }
-
-    .social p {
-        font-size: 20px;
-    }
-
-    .foot p {
-        font-size: 20px;
-    }
-
-    .foot h2 {
-        font-size: 40px;
-    }
-
-    .slider {
-        width: 90%;
-        height: auto;
-        margin-left: 5%;
-    }
-
-    .controls {
-        padding: 10px 0;
-    }
-
-    button {
-        font-size: 16px;
-        padding: 0.5rem 1rem;
     }
 }
 
