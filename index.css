@@ -485,7 +485,10 @@ footer {
     }
 
     table {
-        display: none;
+        margin: 0 5vw 0vw 5vw;
+        align-items: center;
+        width: 90%;
+        height: 49vh;
     }
 
     .education h3,
