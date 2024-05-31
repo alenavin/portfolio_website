@@ -344,4 +344,42 @@ table tbody tr:hover {
 .slider {
     width: 50%;
     height: 50%;
-    background-co
+    background-color: #8a8455;
+    margin-left: 25%;
+
+}
+
+.slider img {
+    width: 100%;
+    height: 100%;
+}
+
+.controls {
+    margin: 0 auto;
+    padding: 15px 0;
+    text-align: center;
+}
+
+button {
+    font-size: 4vw;
+    padding: 0.2rem 1rem;
+    cursor: pointer;
+}
+
+footer {
+    height: 33%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.foot p {
+    font-size: 3vw;
+
+}
+.foot h2 {
+    font-size: 4vw;
+}

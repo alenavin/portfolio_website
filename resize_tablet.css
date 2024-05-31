@@ -1,0 +1,168 @@
+@media (min-width: 577px) and (max-width: 768px) {
+    html, body {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav {
+        display: flex;
+        margin-top: 0;
+        height: auto;
+        margin-right: 5vw;
+    }
+    nav ul li {
+        text-align: right;
+    }
+
+    header {
+        display: flex;
+        align-items: flex-start;
+        margin: 0 0 10vh 0;
+        padding: 0;
+        width: 100vw;
+        height: 0%;
+        box-sizing: border-box;
+    }
+
+    header p {
+        margin-right: 30vw;
+        margin-left: 5vw;
+        font-size: 3vw;
+    }
+
+    main {
+        margin: 30vw 5vw 5vw 5vw;
+    }
+    
+    .intro {
+        margin: 0;
+        padding: 0;
+        width: 60%;
+    }
+
+    .intro h1 {
+        font-size: 5vw;
+    }
+
+    .ava {
+        width: 40%;
+        margin: 0;
+        height: 100%;
+        position: relative;
+
+    }
+
+    .ava img {
+        width: 70%;
+        position: absolute;
+        top: 0;
+	    bottom: 0;
+	    left: 0;
+	    right: 0;
+	    margin: auto;
+        
+    }
+
+    .me {
+        margin-top: 0;
+        margin: 0 5vw 5vw 5vw;
+        width: 90vw;
+    }
+
+    .me p {
+        font-family: 'Times New Roman', Times, serif;
+        text-transform: none;
+    }
+
+    .skills p {
+        font-family: 'Times New Roman', Times, serif;
+        text-transform: none;
+    }
+
+    .my-skills {
+        margin: 0 5vw 5vw 5vw;
+
+    }
+
+    table {
+        margin: 0 5vw 0vw 5vw;
+        align-items: center;
+        width: 90%;
+        height: 49vh;
+    }
+
+    .education h3,
+    .my-skills h3,
+    .me h3,
+    .certificatations h3 {
+        text-align: center;
+        margin-bottom: 5vw;
+        font-size: 3vh;
+        text-transform: none;
+    }
+
+    .education h2 {
+        font-size: 2.5vh;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .slider {
+        margin: 0 5vw 0vw 5vw;
+        align-items: center;
+        width: 90%;
+        height: 49vh;
+    }
+
+    .controls {
+        align-items: center;
+        width: 100%;
+    }
+
+    #btnPrev {
+        margin-right: 1vw;
+    }
+
+    #btnNext {
+        margin-left: 1vw;
+    }
+
+    button {
+        padding: 0.5vw 1.5vw;
+    }
+
+    footer {
+        width: 100%;
+        height: 30%;
+        box-sizing: border-box;
+        align-items: start;
+        margin-top: 1vw;
+    }
+
+    .foot p {
+        font-size: 3vw;
+    
+    }
+    .foot h2 {
+        font-size: 4vw;
+    }
+    .social {
+        align-items: end;
+    }
+
+    .social p {
+        font-size: 4vw;
+        
+    }
+
+    .social ul li {
+        text-align: right;
+    }
+
+    .social ul li a {
+        font-size: 3vw;
+    }
+}
