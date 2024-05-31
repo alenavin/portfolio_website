@@ -2,13 +2,19 @@
     z-index: 2;
     background: none;
     text-transform: lowercase;
+    background-color: rgb(247, 247, 242);
+}
+
+html, body {
+    width: 100%;
+    box-sizing: border-box;
 }
 
 header {
     height: 5vh;
-    width: 100vw;
+    width: 100%;
+    font-size: 1.5vw;
     box-sizing: border-box;
-
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -17,15 +23,20 @@ header {
     padding-right: 10vw;
     font-family: 'Barlow Semi Condensed', sans-serif;
     text-transform: uppercase;
-    background-color: rgb(247, 247, 242);
-
-    font-size: 1.5vh;
 }
 
 header p {
+    width: 30%;
+    font-size: 1.7vw;
     text-transform: uppercase;
-    font-size: 1.75vh;
-    margin-right: 55vw;
+    margin-right: 5vw;
+}
+
+nav {
+    width: 70%;
+    margin-top: 2vh;
+    display: flex;
+    align-items: end;
 }
 
 nav ul {
@@ -33,104 +44,90 @@ nav ul {
     display: flex;
 }
 
-body {
-    height: 100vh;
-    width: 100vw;
-    box-sizing: border-box;
-    background-color: rgb(247, 247, 242);
-}
-
-.social {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.social ul li a {
-    text-transform: lowercase;
-    text-decoration: underline;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-    text-transform: uppercase;
-    font-size: 3vw;
-}
-
 nav ul li {
     margin-left: 40px;
     text-transform: uppercase;
 }
 
+nav ul li a { 
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+body {
+    height: 100vh;
+}
+
 .intro {
-    margin-left: 1vh;
-    margin-top: 20vh;
+    margin: 0;
+    padding: 0;
+    width: 60%;
 }
 
 .intro h1 {
-    font-size: 55px;
+    font-size: 4vw;
     text-transform: uppercase;
     margin: 25px 0;
 }
 
 .intro p {
+    font-size: 2.5vw;
     text-transform: uppercase;
-    font-family: 'Barlow Semi Condensed', sans-serif;
-    font-size: 3vw;
+    font-family: 'Barlow Semi Condensed', sans-serif
 }
 
 .ava {
-    display: inline-block;
-    width: 30vw;
-    height: 30vh;
-    margin-left: 80px;
-    margin-right: 80px;
+    width: 40%;
+    margin: 0;
+    height: 100%;
+    position: relative;
 }
 
 .ava img {
-    width:100%;
-    object-fit: cover;
-    margin-top: 0px;
+    width: 70%;
+    position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
 }
 
 main {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 0;
+    margin: 10vw 5vw 5vw 5vw;
     justify-content: space-around;
-
 }
 
 .me {
-    margin-left: 10vw;
-    margin-bottom: 5vh;
-    margin-top: 25vh;
+    width: 90%;
+    margin-top: 0;
+    margin: 0 5vw 5vw 5vw;
 }
 
 .my-skills {
-    margin-left: 10vw;
-    margin-bottom: 5vh;
-    margin-top: 10vh;
+    margin: 0 5vw 5vw 5vw;
 }
 
 .me h3,
 .my-skills h3 {
+    font-size: 2.5vw;
     font-family: 'Barlow Semi Condensed', sans-serif;
     text-transform: capitalize;
-    font-size: 4vh;
 }
 
 .me p {
-    font-family: 'Playfair Display', serif;
-    text-transform: capitalize;
-    font-size: 3vw;
-    
+    font-size: 1.5vw;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: none;
 }
 
 .my-skills p {
-    font-size: 3vw;
+    font-size: 1.5vw;
     font-family: 'Playfair Display', serif;
     text-transform: capitalize;
 }
@@ -141,21 +138,21 @@ main {
 }
 
 .blocks-titles h3 {
-    font-size: 3.25vw;
+    font-size: 2.5vw;
     font-family: 'Playfair Display', serif;
     text-transform: capitalize;
-    margin-bottom: 10px;
+    margin-bottom: 3vh
 }
 
 .blocks {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 30px;
+    margin-bottom: 4vh;
 }
 
 .blocks p {
     width: 25%;
-    font-size: 15px;
+    font-size: 1.5vw;
     font-family: 'Playfair Display', serif;
     text-transform: capitalize;
 }
@@ -164,16 +161,15 @@ main {
     margin: 0 105px;
 }
 
-
 .skills {
-    margin-left: 105px;
     width: 50%;
+    margin-left: 5vw;
 }
 
 .skills p,
 .education h2 {
-    margin: 6px 0;
-    font-size: 4vh;
+    font-size: 2.5vw;
+    margin: 1vh 0 ;
     font-family: 'Playfair Display', serif;
     text-transform: capitalize;
 }
@@ -182,7 +178,6 @@ main {
     height: 12px;
     background-color: wheat;
     border-radius: 4px;
-
 }
 
 .skill-percentage {
@@ -193,11 +188,11 @@ main {
 }
 
 .skill-percentage::before {
+    font-size: 12px;
     content: attr(a);
     position: absolute;
     background: rgb(192, 191, 194);
     padding: 4px 6px;
-    font-size: 12px;
     font-weight: bold;
     border-radius: 4px;
     top: -30px;
@@ -206,60 +201,53 @@ main {
 }
 
 .skill-percentage::after {
-    content: '';
-    position: absolute;
     width: 9px;
     height: 8px;
+    content: '';
+    position: absolute;
     background: rgb(192, 191, 194);
     top: -13px;
     right: 0;
     transform: translateX(50%) rotate(45deg);
 }
 
-
 .education,
 .certificatations {
-    margin: 30px 105px;
+    margin-left: 5vw;
     text-transform: uppercase;
 }
 
 .education h3,
 .certificatations {
+    font-size: 3vh;
     font-family: 'Barlow Semi Condensed', sans-serif;
     text-transform: capitalize;
-    font-size: 4vh;
-    margin-bottom: 8px;
+    margin-bottom: 2vw;
 }
 
 table {
-    margin-left: 105px;
-    margin-top: 40px;
-    width: 800px;
-
-}
-
-table {
-    width: 800px; 
+    width: 90%;
+    margin: 0 5vw 0vw 5vw;
     text-align: center; 
     border-bottom: 2px solid #dfdfdf; 
     border-radius: 6px; 
     border-collapse: separate; 
     border-spacing: 0px;
-    margin-bottom: 30px;
 }
+
 table thead tr {
-    color: #ffffff; 
-    background: #8a8455;
     height: 40px;
     font-size: 16px;
+    color: #ffffff; 
+    background: #8a8455;
     font-family: 'Playfair Display', serif;
     text-transform: capitalize;
-    
 }
+
 table tr td {
-    border-right: 1px solid #dfdfdf;
     height: 50px;
     font-size: 16px;
+    border-right: 1px solid #dfdfdf;
     font-family: 'Playfair Display', serif;
     text-transform: capitalize;
 }
@@ -273,38 +261,8 @@ table tbody tr:nth-child(2n) {
     background: #f1eded;
 }
 table tbody tr:hover {
-    background: #beb676; transition-duration: 0.2s;
-}
-
-.social p {
-    font-size: 40px;
-    text-transform: capitalize;
-    font-family: 'Playfair Display', serif;
-    text-transform: capitalize;
-    
-}
-
-.social ul {
-    align-items: center;
-    margin-left: 0;
-}
-
-.social ul li {
-    list-style: none;
-    margin-left: 0;
-}
-
-.foot p {
-    font-size: 30px;
-    font-weight: bold;
-    font-family: 'Playfair Display', serif;
-    text-transform: capitalize;
-}
-
-.foot h2 {
-    font-size: 60px;
-    text-decoration: underline;
-    text-transform: capitalize;
+    background: #beb676; 
+    transition-duration: 0.2s;
 }
 
 .dropdown-content {
@@ -342,11 +300,10 @@ table tbody tr:hover {
 }
 
 .slider {
-    width: 50%;
-    height: 50%;
+    width: 48%;
+    height: 55%;
+    margin: 0 26vw 0vw 26vw;
     background-color: #8a8455;
-    margin-left: 25%;
-
 }
 
 .slider img {
@@ -361,9 +318,17 @@ table tbody tr:hover {
 }
 
 button {
-    font-size: 4vw;
-    padding: 0.2rem 1rem;
+    font-size: 1.6vw;
+    padding: 0.2rem 0.8rem;
     cursor: pointer;
+}
+
+#btnPrev {
+    margin-right: 0.8vw;
+}
+
+#btnNext {
+    margin-left: 0.8vw;
 }
 
 footer {
@@ -376,10 +341,56 @@ footer {
     align-items: center;
 }
 
-.foot p {
-    font-size: 3vw;
-
+.foot {
+    background-color: white;
 }
+
+.social {
+    align-items: end;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.social p {
+    font-size: 3vw;
+    text-transform: capitalize;
+    font-family: 'Playfair Display', serif;
+    text-transform: capitalize;
+    background-color: white;
+}
+
+.social ul {
+    align-items: center;
+    margin-left: 0;
+    background-color: white;
+}
+
+.social ul li {
+    list-style: none;
+    margin-left: 0;
+    text-align: right;
+    background-color: white;
+}
+
+.social ul li a {
+    font-size: 2vw;
+    text-transform: lowercase;
+    text-decoration: underline;
+    background-color: white;
+}
+
+.foot p {
+    font-size: 2vw;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    text-transform: capitalize;
+    background-color: white;
+}
+
 .foot h2 {
-    font-size: 4vw;
+    font-size: 3vw;
+    background-color: white;
+    text-transform: capitalize;
 }

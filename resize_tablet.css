@@ -1,9 +1,4 @@
 @media (min-width: 577px) and (max-width: 768px) {
-    html, body {
-        width: 100%;
-        box-sizing: border-box;
-    }
-
     nav ul {
         flex-direction: column;
     }
@@ -37,55 +32,14 @@
     main {
         margin: 30vw 5vw 5vw 5vw;
     }
-    
-    .intro {
-        margin: 0;
-        padding: 0;
-        width: 60%;
-    }
 
     .intro h1 {
         font-size: 5vw;
     }
 
-    .ava {
-        width: 40%;
-        margin: 0;
-        height: 100%;
-        position: relative;
-
-    }
-
-    .ava img {
-        width: 70%;
-        position: absolute;
-        top: 0;
-	    bottom: 0;
-	    left: 0;
-	    right: 0;
-	    margin: auto;
-        
-    }
-
-    .me {
-        margin-top: 0;
-        margin: 0 5vw 5vw 5vw;
-        width: 90vw;
-    }
-
-    .me p {
-        font-family: 'Times New Roman', Times, serif;
-        text-transform: none;
-    }
-
     .skills p {
         font-family: 'Times New Roman', Times, serif;
         text-transform: none;
-    }
-
-    .my-skills {
-        margin: 0 5vw 5vw 5vw;
-
     }
 
     table {
@@ -122,14 +76,6 @@
         width: 100%;
     }
 
-    #btnPrev {
-        margin-right: 1vw;
-    }
-
-    #btnNext {
-        margin-left: 1vw;
-    }
-
     button {
         padding: 0.5vw 1.5vw;
     }
@@ -149,17 +95,9 @@
     .foot h2 {
         font-size: 4vw;
     }
-    .social {
-        align-items: end;
-    }
 
     .social p {
         font-size: 4vw;
-        
-    }
-
-    .social ul li {
-        text-align: right;
     }
 
     .social ul li a {
