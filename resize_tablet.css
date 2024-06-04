@@ -12,6 +12,9 @@
     nav ul li {
         text-align: right;
     }
+    nav ul li a { 
+        font-size: 2.5vw;
+    }
 
     header {
         display: flex;
@@ -24,9 +27,9 @@
     }
 
     header p {
+        font-size: 3vw;
         margin-right: 30vw;
         margin-left: 5vw;
-        font-size: 3vw;
     }
 
     main {
@@ -35,6 +38,10 @@
 
     .intro h1 {
         font-size: 5vw;
+    }
+
+    .intro p {
+        font-size: 3vw;
     }
 
     .skills p {
@@ -53,22 +60,32 @@
     .my-skills h3,
     .me h3,
     .certificatations h3 {
+        font-size: 4vw;
         text-align: center;
         margin-bottom: 5vw;
-        font-size: 3vh;
         text-transform: none;
     }
 
+    .me p,
+    .my-skills p,
+    .blocks p,
+    .skills p,
+    .education h2,
+    button {
+        font-size: 2.5vw;
+    }
+
     .education h2 {
-        font-size: 2.5vh;
+        text-align: center;
+        margin-bottom: 5vw;
         font-family: 'Times New Roman', Times, serif;
     }
 
     .slider {
-        margin: 0 5vw 0vw 5vw;
+        margin: 0 8vw 0vw 8vw;
         align-items: center;
-        width: 90%;
-        height: 49vh;
+        width: 84%;
+        height: 55vh;
     }
 
     .controls {
@@ -82,7 +99,7 @@
 
     footer {
         width: 100%;
-        height: 30%;
+        height: 35%;
         box-sizing: border-box;
         align-items: start;
         margin-top: 1vw;

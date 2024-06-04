@@ -73,7 +73,7 @@ body {
 }
 
 .intro p {
-    font-size: 2.5vw;
+    font-size: 1.75vw;
     text-transform: uppercase;
     font-family: 'Barlow Semi Condensed', sans-serif
 }
@@ -122,7 +122,7 @@ main {
 
 .me p {
     font-size: 1.5vw;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Playfair Display', serif;
     text-transform: none;
 }
 
@@ -166,12 +166,11 @@ main {
     margin-left: 5vw;
 }
 
-.skills p,
-.education h2 {
-    font-size: 2.5vw;
-    margin: 1vh 0 ;
+.skills p {
+    font-size: 1.5vw;
     font-family: 'Playfair Display', serif;
     text-transform: capitalize;
+    margin: 1vh 0 ;
 }
 
 .skill-bar {
@@ -217,13 +216,21 @@ main {
     text-transform: uppercase;
 }
 
-.education h3,
-.certificatations {
-    font-size: 3vh;
+.education h2 {
+    font-size: 1.5vw;
+    margin: 0.5vh 0 ;
+    font-family: 'Playfair Display', serif;
+    text-transform: capitalize;
+}
+
+.certificatations h3,
+.education h3
+ {
+    font-size: 2.5vw;
     font-family: 'Barlow Semi Condensed', sans-serif;
     text-transform: capitalize;
     margin-bottom: 2vw;
-}
+ }
 
 table {
     width: 90%;
@@ -354,7 +361,7 @@ footer {
 }
 
 .social p {
-    font-size: 3vw;
+    font-size: 2.5vw;
     text-transform: capitalize;
     font-family: 'Playfair Display', serif;
     text-transform: capitalize;
@@ -375,7 +382,7 @@ footer {
 }
 
 .social ul li a {
-    font-size: 2vw;
+    font-size: 1.75vw;
     text-transform: lowercase;
     text-decoration: underline;
     background-color: white;
