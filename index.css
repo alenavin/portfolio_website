@@ -8,6 +8,7 @@ html, body {
     width: 100%;
     box-sizing: border-box;
     background-color: rgb(247, 247, 242);
+    scroll-behavior: smooth;
 }
 
 header {
