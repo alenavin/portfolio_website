@@ -1,0 +1,146 @@
+@media (max-width: 576px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav {
+        display: flex;
+        margin-top: 0;
+        height: auto;
+        margin-right: 5vw;
+    }
+    nav ul li {
+        text-align: right;
+    }
+    nav ul li a { 
+        font-size: 2.5vw;
+    }
+
+    header {
+        display: flex;
+        align-items: flex-start;
+        margin: 0 0 10vh 0;
+        padding: 0;
+        width: 100vw;
+        height: 0%;
+        box-sizing: border-box;
+    }
+
+    header p {
+        font-size: 3vw;
+        margin-right: 30vw;
+        margin-left: 5vw;
+    }
+
+    main {
+        margin: 30vw 5vw 5vw 5vw;
+    }
+
+    .intro h1 {
+        font-size: 5vw;
+    }
+
+    .intro p {
+        font-size: 3vw;
+    }
+
+    .skills p {
+        font-family: 'Times New Roman', Times, serif;
+        text-transform: none;
+    }
+
+    table {
+        margin: 0 5vw 0vw 5vw;
+        align-items: center;
+        width: 90%;
+        height: 49vh;
+    }
+
+    .education h3,
+    .my-skills h3,
+    .me h3,
+    .certificatations h3 {
+        font-size: 4vw;
+        text-align: center;
+        margin-bottom: 5vw;
+        text-transform: none;
+    }
+
+    .me p,
+    .my-skills p,
+    .blocks p,
+    .skills p,
+    .education h2,
+    button {
+        font-size: 2.5vw;
+    }
+
+    .education h2 {
+        text-align: center;
+        margin-bottom: 5vw;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    table {
+        width: 60%;
+        display: none;
+    }
+
+    table thead tr {
+        font-size: 2.5vw;
+        height: 20px;
+    }
+
+    table tr td {
+        font-size: 2.5vw;
+        height: 25px;
+    }
+
+    td {
+        width: 10vw;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .slider {
+        margin: 0 8vw 0vw 8vw;
+        align-items: center;
+        width: 50%;
+        height: 35%;
+    }
+
+    .controls {
+        align-items: center;
+        width: 100%;
+    }
+
+    button {
+        padding: 0.5vw 1.5vw;
+    }
+
+    footer {
+        width: 90%;
+        height: 35%;
+        box-sizing: border-box;
+        align-items: start;
+        margin-top: 1vw;
+    }
+
+    .foot p {
+        font-size: 3vw;
+    
+    }
+    .foot h2 {
+        font-size: 4vw;
+    }
+
+    .social p {
+        font-size: 4vw;
+    }
+
+    .social ul li a {
+        font-size: 3vw;
+    }
+}
